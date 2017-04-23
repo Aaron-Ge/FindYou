@@ -20,12 +20,15 @@
         android:layout_marginRight="30dp"
         android:orientation="vertical" >
         <com.example.gxs.findyou.com.example.gxs.findyou.view.MyButton
+            android:id="@+id/incoming"
             android:layout_width="fill_parent"
             android:layout_height="60dp"
             my:drawable="@drawable/b_incoming"
             android:text="来电监控"
             />
-        <com.example.gxs.findyou.com.example.gxs.findyou.view.MyButton            android:layout_width="fill_parent"
+        <com.example.gxs.findyou.com.example.gxs.findyou.view.MyButton
+
+            android:layout_width="fill_parent"
             android:layout_height="60dp"
             my:drawable="@drawable/b_message"
             android:text="短信监控"
@@ -36,7 +39,9 @@
             android:text="去电监控"
             />
 
-        <com.example.gxs.findyou.com.example.gxs.findyou.view.MyButton            android:layout_width="fill_parent"
+        <com.example.gxs.findyou.com.example.gxs.findyou.view.MyButton
+            android:id="@+id/myswitch"
+            android:layout_width="fill_parent"
             android:layout_height="60dp"
             my:drawable="@drawable/b_onekey"
             android:text="一键监控"

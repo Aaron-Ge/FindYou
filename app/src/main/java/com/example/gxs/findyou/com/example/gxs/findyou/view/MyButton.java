@@ -21,8 +21,10 @@ private Drawable drawable;
 
     public MyButton(Context context, AttributeSet attrs) {
         super(context, attrs);
-        TypedArray a =context.obtainStyledAttributes(attrs, R.styleable.my);//获取图片
-        drawable = a.getDrawable(R.styleable.my_drawable);//获取图片的宽和高
+        TypedArray a =context.obtainStyledAttributes(attrs, R.styleable.my);
+        //获取图片
+        drawable = a.getDrawable(R.styleable.my_drawable);
+        //获取图片的宽和高
         drawablewidth = drawable.getIntrinsicWidth();
         drawableheight = drawable.getIntrinsicHeight();
     }
